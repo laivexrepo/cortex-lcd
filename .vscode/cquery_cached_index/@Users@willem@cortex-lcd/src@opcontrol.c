@@ -32,6 +32,7 @@ void operatorControl() {
 	//int power, turn;
   int power;
   int turn;
+
  	while (1) {
  			 power = joystickGetAnalog(1, 2); // vertical axis on left joystick
  			 turn  = joystickGetAnalog(1, 1); // horizontal axis on left joystick

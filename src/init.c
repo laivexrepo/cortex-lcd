@@ -36,7 +36,7 @@ void initializeIO() {
  */
 
 // These two sample scripts are run based on button selection
-void exampleScript1() {
+/*void exampleScript1() {
   lcdClear(uart1);
   lcdPrint(uart1, 1, "Running Script 1");
   lcdPrint(uart1, 2, "Batt: %1.3f V", (double)powerLevelMain() / 1000);
@@ -61,6 +61,7 @@ void exampleScript3() {
    delay(200);
    return;
 }
+*/
 
 // THese two arrays, hold the script names/description and the function name to be executed
 const char* titles[] = {"Script 1", "Script 2", "Script 3"};

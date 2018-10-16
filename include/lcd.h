@@ -35,4 +35,12 @@ void lcdScriptExecute();
  */
 void lcdPrintCentered(unsigned char line, const char* string);
 
+/**
+ * Scripts which are selected through the LCD chooser 
+ */
+
+void exampleScript1();
+void exampleScript2();
+void exampleScript3();
+
 #endif
